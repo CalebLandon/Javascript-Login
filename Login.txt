@@ -1,0 +1,25 @@
+<!-- ALL OF THIS CODE IS OWNED BY CALEB LANDON 2017 -->
+<!-- This was created on Febuary 23 2017 by Caleb Landon, the purpose is to test his programming in PHP, HTML5, CSS3, and some Javascript. -->
+
+<!-- DISCLAIMER -->
+
+<!-- This code shall not be reproduced, sold or copied by anyone without permission for Caleb Christian Landon. Anyone who disobeys can be further punished. -->
+<script>
+var user = prompt ('Please Enter your Username ');
+if (user == " *Your Correct Username* ") {
+	document.write ('  ');
+}
+else {
+	alert ('The password is Incorrect, Click here to refresh and try again')
+    location.reload();
+}
+var password = prompt ("Please Enter your Password " + user);
+if (password == "l *Your Correct Password* ") {
+	window.location.replace(" *Link you want to go to if login is correct* ");
+}
+else {
+	document.write ('The Password is Incorrect... Click here to refresh')
+	location.reload();
+}
+</script>
+<!-- ALL OF THIS CODE IS OWNED BY CALEB LANDON 2017 -->
