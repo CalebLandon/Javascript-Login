@@ -3,7 +3,7 @@
 
 <!-- DISCLAIMER -->
 
-<!-- This code shall not be reproduced, sold or copied by anyone without permission for Caleb Christian Landon. Anyone who disobeys can be further punished. -->
+<!-- This code shall not be reproduced, sold or copied by anyone without permission for Caleb Landon. Anyone who disobeys can be further punished. -->
 <script>
 var user = prompt ('Please Enter your Username ');
 if (user == " *Your Correct Username* ") {
